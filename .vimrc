@@ -61,6 +61,7 @@ inoremap jj <Esc>
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'violet'
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
+let g:NERDTreeQuitOnOpen=1
 
 highlight Normal ctermbg=none
 highlight NonText ctermbg=none
