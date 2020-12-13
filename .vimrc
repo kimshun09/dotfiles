@@ -15,6 +15,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'patstockwell/vim-monokai-tasty'
+Plugin 'dense-analysis/ale'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -64,6 +65,8 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#buffer_idx_mode = 1
 nmap <C-p> <Plug>AirlineSelectPrevTab
 nmap <C-n> <Plug>AirlineSelectNextTab
+
+let g:airline#extensions#ale#enabled = 1
 
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 let g:NERDTreeQuitOnOpen=1
