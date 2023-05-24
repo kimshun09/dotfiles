@@ -58,6 +58,7 @@ nnoremap k gk
 vnoremap j gj
 vnoremap k gk
 inoremap jj <Esc>
+xnoremap p "_dP
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'violet'
@@ -77,5 +78,5 @@ highlight LineNr ctermbg=none
 highlight Folded ctermbg=none
 highlight EndOfBuffer ctermbg=none
 
-
 let g:python_highlight_all = 1
+
